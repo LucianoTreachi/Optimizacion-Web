@@ -78,8 +78,13 @@ img {
   display: block;
 }
 
-p {
+h1,
+h2 {
   text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
   line-height: 1.4;
   letter-spacing: 0.025em;
   font-weight: 300;
@@ -111,41 +116,39 @@ li:not(:last-child) {
   padding: var(--size120) var(--size40);
 }
 
-.article {
-  border: 2px solid var(--primary-color);
-  border-radius: var(--size10);
-  padding: var(--size20);
-}
-
 .article:not(:last-child) {
   margin-bottom: var(--size80);
 }
 
 .article-title {
   margin-bottom: var(--size40);
+  text-decoration: underline;
 }
 
 .large-container {
-  max-width: 87.5rem;
+  max-width: 60rem;
   margin: 0 auto;
   position: relative;
 }
 
 .small-container {
-  max-width: 70rem;
+  max-width: 43.75rem;
   margin: 0 auto;
   position: relative;
 }
 
 .checkbox {
   border: 0;
-  outline: 0;
   width: var(--size24);
   height: var(--size24);
   accent-color: var(--primary-color);
   cursor: pointer;
   margin-right: 5px;
   transform: translateY(3px);
+}
+
+.checkbox:focus {
+  outline: 2px solid var(--white);
 }
 
 @keyframes fade-in {
@@ -157,31 +160,28 @@ li:not(:last-child) {
 /* HERO */
 
 .hero .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: var(--size20);
-  padding: var(--size40) 0;
+  text-align: center;
 }
 
 .main-title {
-  font-size: var(--size60);
+  font-size: var(--size80);
   line-height: 1.1;
-  max-width: 500px;
 }
 
-.sub-title {
-  font-size: var(--size24);
+.paragraph {
   margin-top: var(--size10);
+  font-size: var(--size24);
+  text-wrap: balance;
 }
 
-.sub-title-span {
+.paragraph-span {
   color: var(--primary-color);
   font-weight: 500;
   opacity: 1;
 }
 
 .hero-image {
+  margin-top: var(--size80);
   width: 100%;
   height: auto;
 }
@@ -316,16 +316,24 @@ circle:nth-child(2) {
   }
 
   .article:not(:last-child) {
-    margin-bottom: var(--size40);
+    margin-bottom: var(--size60);
+  }
+
+  .hero .row {
+    text-align: initial;
   }
 
   .main-title {
     font-size: var(--size40);
   }
 
-  .sub-title {
+  .paragraph {
     margin-top: var(--size20);
     font-size: var(--size18);
+  }
+
+  .hero-image {
+    margin-top: var(--size40);
   }
 
   .clear-button {
