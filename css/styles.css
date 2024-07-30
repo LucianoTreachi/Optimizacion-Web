@@ -70,7 +70,6 @@ select {
   font-size: inherit;
   font-family: inherit;
   border: none;
-  outline: none;
   letter-spacing: 0.025em;
 }
 
@@ -145,10 +144,6 @@ li:not(:last-child) {
   cursor: pointer;
   margin-right: 5px;
   transform: translateY(3px);
-}
-
-.checkbox:focus {
-  outline: 2px solid var(--white);
 }
 
 @keyframes fade-in {
