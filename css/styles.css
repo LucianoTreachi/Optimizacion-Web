@@ -328,7 +328,7 @@ circle:nth-child(2) {
 
 @media (max-width: 36rem) {
   li {
-    font-size: var(--size16);
+    font-size: var(--size18);
   }
 
   .checkbox {
