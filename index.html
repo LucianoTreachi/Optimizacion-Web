@@ -61,7 +61,8 @@
     <!-- CHECK LIST-->
     <section class="intro-section">
       <div class="small-container">
-        <p class="intro-paragraph">A continuación, tienes una lista de verificación para que puedas evaluar tu sitio web
+        <p class="intro-paragraph">
+          A continuación, tienes una lista de verificación para que puedas evaluar tu sitio web
           y lograr una presencia en línea impecable. Simplemente marca las casillas que correspondan si tu sitio ya
           cumple con las pautas.
         </p>
@@ -77,14 +78,19 @@
           <h2 class="article-title">Idioma</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox1" aria-label="checkbox">
-              Verifica que el atributo "lang" esté correctamente configurado. Por ejemplo, si el contenido de la página
-              está en español el atributo lang debe ser "es", si está en inglés debe ser "en", y así sucesivamente.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox1">
+              <label for="checkbox1">
+                Verifica que el atributo "lang" esté correctamente configurado. Por ejemplo, si el
+                contenido de la página está en español el atributo lang debe ser "es", si está en inglés debe ser "en",
+                y así sucesivamente.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox2" aria-label="checkbox">
-              Si el contenido del sitio está en otro idioma, asegúrate de que la traducción generada por Google
-              Translate sea precisa y no afecte el estilo del sitio.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox2">
+              <label for="checkbox2">
+                Si el contenido del sitio está en otro idioma, asegúrate de que la traducción
+                generada por Google Translate sea precisa y no afecte el estilo del sitio.
+              </label>
             </li>
           </ul>
         </article>
@@ -94,29 +100,44 @@
           <h2 class="article-title">Metadatos</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox3" aria-label="checkbox">
-              Comprueba que las metaetiquetas title y description estén presentes.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox3">
+              <label for="checkbox3">
+                Comprueba que las metaetiquetas title y description estén presentes.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox4" aria-label="checkbox">
-              Asegúrate de que la longitud de las metaetiquetas title y description esté dentro de los límites
-              recomendados. Para title utiliza entre 30 y 60 caracteres. Para description utiliza hasta 160
-              caracteres.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox4">
+              <label for="checkbox4">
+                Asegúrate de que la longitud de las metaetiquetas title y description esté dentro
+                de los límites recomendados. Para title utiliza entre 30 y 60 caracteres. Para description utiliza hasta
+                160 caracteres.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox5" aria-label="checkbox">
-              Implementa la etiqueta &lt;link rel="canonical" href="url-de-la-página"&gt; en cada página del sitio web.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox5">
+              <label for="checkbox5">
+                Implementa la etiqueta &lt;link rel="canonical" href="url-de-la-página"&gt; en cada
+                página del sitio web.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox6" aria-label="checkbox">
-              Verifica que el sitio tenga un favicon de al menos 32x32 px, generalmente en formato .ico o .png.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox6">
+              <label for="checkbox6">
+                Verifica que el sitio tenga un favicon de al menos 32x32 px, generalmente en
+                formato .ico o .png.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox7" aria-label="checkbox">
-              Implementa etiquetas Open Graph para mejorar la vista previa en redes sociales al compartir el enlace del
-              sitio. <a href="https://socialsharepreview.com/" target="_blank" rel="noreferrer"
-                aria-label="Visitar la página Social Share Preview para verificar las etiquetas de Open Graph">Verificar
-                ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox7">
+              <label for="checkbox7">
+                Implementa etiquetas Open Graph para mejorar la vista previa en redes sociales al
+                compartir el enlace del sitio.
+              </label>
+              <br>
+              <a href="https://socialsharepreview.com/" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página Social Share Preview para verificar las etiquetas de Open Graph">
+                Verificar ahora
+              </a>
             </li>
           </ul>
         </article>
@@ -126,14 +147,18 @@
           <h2 class="article-title">Semántica</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox8" aria-label="checkbox">
-              Utiliza etiquetas semánticas como header, nav, main, section, article, footer, etc., para una
-              estructura más clara y significativa del contenido.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox8">
+              <label for="checkbox8">
+                Utiliza etiquetas semánticas como header, nav, main, section, article, footer,
+                etc., para una estructura más clara y significativa del contenido.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox9" aria-label="checkbox">
-              Utiliza etiquetas de encabezado de manera jerárquica para estructurar
-              adecuadamente el contenido. Por ejemplo, utiliza un solo h1 por página y luego continúa con h2.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox9">
+              <label for="checkbox9">
+                Utiliza etiquetas de encabezado de manera jerárquica para estructurar
+                adecuadamente el contenido. Por ejemplo, utiliza un solo h1 por página y luego continúa con h2.
+              </label>
             </li>
           </ul>
         </article>
@@ -143,23 +168,37 @@
           <h2 class="article-title">Calidad del código</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox10" aria-label="checkbox">
-              Verifica el código HTML en la página de W3C Markup Validation Service. <a href="https://validator.w3.org/"
-                target="_blank" rel="noreferrer"
-                aria-label="Visitar la página de W3C para verificar el código HTML">Verificar ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox10">
+              <label for="checkbox10">
+                Verifica el código HTML en la página de W3C Markup Validation Service.
+              </label>
+              <br>
+              <a href="https://validator.w3.org/" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página de W3C para verificar el código HTML">
+                Verificar ahora
+              </a>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox11" aria-label="checkbox">
-              Verifica el código CSS en la página de CSS Validation Service. <a
-                href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noreferrer"
-                aria-label="Visitar la página de W3C para verificar el código CSS">Verificar ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox11">
+              <label for="checkbox11">
+                Verifica el código CSS en la página de CSS Validation Service.
+              </label>
+              <br>
+              <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página de W3C para verificar el código CSS">
+                Verificar ahora
+              </a>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox12" aria-label="checkbox">
-              Verifica la calidad del código CSS en la página Project Wallace CSS Analytics. <a
-                href="https://www.projectwallace.com/css-code-quality" target="_blank" rel="noreferrer"
-                aria-label="Visitar la página de Project Wallace para verificar la calidad del código CSS">Verificar
-                ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox12">
+              <label for="checkbox12">
+                Verifica la calidad del código CSS en la página Project Wallace CSS Analytics.
+              </label>
+              <br>
+              <a href="https://www.projectwallace.com/css-code-quality" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página de Project Wallace para verificar la calidad del código CSS">
+                Verificar ahora
+              </a>
             </li>
           </ul>
         </article>
@@ -169,14 +208,22 @@
           <h2 class="article-title">Enlaces y página de error 404</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox13" aria-label="checkbox">
-              Verifica que todos los enlaces internos y externos funcionen correctamente y no generen errores. <a
-                href="https://www.drlinkcheck.com/" target="_blank" rel="noreferrer"
-                aria-label="Visitar la página de Dr. Link Check para verificar los enlaces">Verificar ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox13">
+              <label for="checkbox13">
+                Verifica que todos los enlaces internos y externos funcionen correctamente y no generen errores.
+              </label>
+              <br>
+              <a href="https://www.drlinkcheck.com/" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página de Dr. Link Check para verificar los enlaces">
+                Verificar ahora
+              </a>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox14" aria-label="checkbox">
-              Asegúrate de tener una página de error 404 personalizada y configurada correctamente.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox14">
+              <label for="checkbox14">
+                Asegúrate de tener una página de error 404 personalizada y configurada
+                correctamente.
+              </label>
             </li>
           </ul>
         </article>
@@ -186,18 +233,24 @@
           <h2 class="article-title">Compatibilidad</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox15" aria-label="checkbox">
-              Comprueba que el sitio tenga un diseño responsivo y se adapte correctamente a diferentes resoluciones de
-              pantalla.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox15">
+              <label for="checkbox15">
+                Comprueba que el sitio tenga un diseño responsivo y se adapte correctamente a diferentes resoluciones de
+                pantalla.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox16" aria-label="checkbox">
-              Comprueba que el sitio no tenga scroll horizontal en dispositivos móviles.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox16">
+              <label for="checkbox16">
+                Comprueba que el sitio no tenga scroll horizontal en dispositivos móviles.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox17" aria-label="checkbox">
-              Realiza pruebas de compatibilidad con diferentes navegadores (Chrome, Firefox, Safari, Edge, etc.) para
-              garantizar una experiencia consistente.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox17">
+              <label for="checkbox17">
+                Realiza pruebas de compatibilidad con diferentes navegadores (Chrome, Firefox, Safari, Edge, etc.) para
+                garantizar una experiencia consistente.
+              </label>
             </li>
           </ul>
         </article>
@@ -207,9 +260,11 @@
           <h2 class="article-title">Seguridad</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox18" aria-label="checkbox">
-              Implementa HTTPS para garantizar la seguridad de la comunicación entre el navegador del usuario y tu
-              servidor.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox18">
+              <label for="checkbox18">
+                Implementa HTTPS para garantizar la seguridad de la comunicación entre el navegador del usuario y tu
+                servidor.
+              </label>
             </li>
           </ul>
         </article>
@@ -219,14 +274,18 @@
           <h2 class="article-title">Archivos útiles</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox19" aria-label="checkbox">
-              Implementa un archivo robots.txt para controlar qué partes del sitio son
-              accesibles para los motores de búsqueda.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox19">
+              <label for="checkbox19">
+                Implementa un archivo robots.txt para controlar qué partes del sitio son
+                accesibles para los motores de búsqueda.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox20" aria-label="checkbox">
-              Implementa un archivo sitemap.xml para ayudar a los motores de búsqueda a indexar tu sitio de manera
-              eficiente.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox20">
+              <label for="checkbox20">
+                Implementa un archivo sitemap.xml para ayudar a los motores de búsqueda a indexar tu sitio de manera
+                eficiente.
+              </label>
             </li>
           </ul>
         </article>
@@ -236,13 +295,17 @@
           <h2 class="article-title">Formularios</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox21" aria-label="checkbox">
-              Comprueba que todos los formularios funcionen correctamente y que los mensajes de error sean claros y
-              útiles para los usuarios.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox21">
+              <label for="checkbox21">
+                Comprueba que todos los formularios funcionen correctamente y que los mensajes de error sean claros y
+                útiles para los usuarios.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox22" aria-label="checkbox">
-              Verifica que los campos del formulario que requieran autocompletado tengan el atributo autocomplete.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox22">
+              <label for="checkbox22">
+                Verifica que los campos del formulario que requieran autocompletado tengan el atributo autocomplete.
+              </label>
             </li>
           </ul>
         </article>
@@ -252,45 +315,66 @@
           <h2 class="article-title">Velocidad</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox23" aria-label="checkbox">
-              Abre tu sitio web, dirígete a las Herramientas para desarrolladores, luego a la pestaña red, presiona F5
-              para actualizar, y verifica cuánto es el peso de los recursos descargados.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox23">
+              <label for="checkbox23">
+                Abre tu sitio web, dirígete a las Herramientas para desarrolladores, luego a la pestaña red, presiona F5
+                para actualizar, y verifica cuánto es el peso de los recursos descargados.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox24" aria-label="checkbox">
-              Abre tu sitio web, dirígete a las Herramientas para desarrolladores, luego a la pestaña red, prueba
-              distintas configuraciones: "3G Rápido", "3G Lento" y verifica si el sitio web continúa
-              siendo navegable.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox24">
+              <label for="checkbox24">
+                Abre tu sitio web, dirígete a las Herramientas para desarrolladores, luego a la pestaña red, prueba
+                distintas configuraciones: "3G Rápido", "3G Lento" y verifica si el sitio web continúa
+                siendo navegable.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox25" aria-label="checkbox">
-              Optimiza las imágenes redimensionándolas y comprimiéndolas. Para ello, puedes utilizar
-              herramientas en línea.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox25">
+              <label for="checkbox25">
+                Optimiza las imágenes redimensionándolas y comprimiéndolas. Para ello, puedes utilizar
+                herramientas en línea.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox26" aria-label="checkbox">
-              Publica imágenes con formatos de última generación como WebP y AVIF.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox26">
+              <label for="checkbox26">
+                Publica imágenes con formatos de última generación como WebP y AVIF.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox27" aria-label="checkbox">
-              Muestra imágenes con un tamaño adecuado. En la versión de escritorio puedes utilizar imágenes más grandes
-              mientras que en la versión móvil deberías utilizar imágenes más pequeñas.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox27">
+              <label for="checkbox27">
+                Muestra imágenes con un tamaño adecuado. En la versión de escritorio puedes utilizar imágenes más
+                grandes
+                mientras que en la versión móvil deberías utilizar imágenes más pequeñas.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox28" aria-label="checkbox">
-              Si es posible, implementa la minificación de archivos CSS y JavaScript para mejorar el tiempo de carga de
-              la página.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox28">
+              <label for="checkbox28">
+                Si es posible, implementa la minificación de archivos CSS y JavaScript para mejorar el tiempo de carga
+                de
+                la página.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox29" aria-label="checkbox">
-              Utiliza técnicas de lazy loading para retrasar la carga de imágenes o Iframes hasta que sean necesarios.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox29">
+              <label for="checkbox29">
+                Utiliza técnicas de lazy loading para retrasar la carga de imágenes o Iframes hasta que sean necesarios.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox30" aria-label="checkbox">
-              Verifica la velocidad del sitio utilizando Google PageSpeed Insights, e implementa las
-              sugerencias de mejora. <a href="https://pagespeed.web.dev/" target="_blank" rel="noreferrer"
-                aria-label="Visitar la página de Google PageSpeed Insights para verificar la velocidad de carga">Verificar
-                ahora</a>
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox30">
+              <label for="checkbox30">
+                Verifica la velocidad del sitio utilizando Google PageSpeed Insights, e implementa las
+                sugerencias de mejora.
+              </label>
+              <br>
+              <a href="https://pagespeed.web.dev/" target="_blank" rel="noreferrer"
+                aria-label="Visitar la página de Google PageSpeed Insights para verificar la velocidad de carga">
+                Verificar ahora
+              </a>
             </li>
           </ul>
         </article>
@@ -300,20 +384,26 @@
           <h2 class="article-title">Accesibilidad</h2>
           <ul>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox31" aria-label="checkbox">
-              Utiliza el atributo "alt" en todas las imágenes importantes para proporcionar información a personas con
-              dificultades en la visión.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox31">
+              <label for="checkbox31">
+                Utiliza el atributo "alt" en todas las imágenes importantes para proporcionar información a personas con
+                dificultades en la visión.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox32" aria-label="checkbox">
-              Utiliza la unidad rem para manejar los tamaños de fuentes del sitio web. Esto hace que si el usuario
-              agranda o achica el tamaño de fuente base, el sitio se ajuste automáticamente.
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox32">
+              <label for="checkbox32">
+                Utiliza la unidad rem para manejar los tamaños de fuentes del sitio web. Esto hace que si el
+                usuario agranda o achica el tamaño de fuente base, el sitio se ajuste automáticamente.
+              </label>
             </li>
             <li>
-              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox33" aria-label="checkbox">
-              Comprueba qué sucede cuando agrandas o achicas el tamaño de fuente base desde el navegador. Por ejemplo,
-              en Google Chrome ve a Configuración / Aspecto / Tamaño de fuente / y prueba "pequeño", "muy pequeño",
-              "grande", "muy grande" ¿Tu sitio web continúa viéndose correctamente?
+              <input class="checkbox" type="checkbox" name="checkbox" id="checkbox33">
+              <label for="checkbox33">
+                Comprueba qué sucede cuando agrandas o achicas el tamaño de fuente base desde el navegador. Por
+                ejemplo, en Google Chrome ve a Configuración / Aspecto / Tamaño de fuente / y prueba "pequeño", "muy
+                pequeño", "grande", "muy grande" ¿Tu sitio web continúa viéndose correctamente?
+              </label>
             </li>
           </ul>
         </article>
