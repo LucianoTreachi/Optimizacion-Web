@@ -138,8 +138,8 @@ li:not(:last-child) {
 
 .checkbox {
   border: 0;
-  width: var(--size24);
-  height: var(--size24);
+  width: var(--size30);
+  height: var(--size30);
   accent-color: var(--primary-color);
   cursor: pointer;
   margin-right: 5px;
@@ -181,6 +181,18 @@ li:not(:last-child) {
   height: auto;
 }
 
+/* INTRO */
+
+.intro-section {
+  background-color: #1a1f2c;
+  padding: var(--size80) var(--size40) 0;
+  position: relative;
+}
+
+.intro-paragraph {
+  font-size: var(--size26);
+}
+
 /* BUTTON */
 
 .clear-button {
@@ -192,7 +204,7 @@ li:not(:last-child) {
   font-size: var(--size18);
   font-weight: bold;
   color: var(--black);
-  padding: var(--size12) var(--size24);
+  padding: var(--size18) var(--size24);
   border-radius: var(--size10);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
   background: var(--primary-color);
@@ -290,6 +302,15 @@ circle:nth-child(2) {
     padding: var(--size40) var(--size20);
   }
 
+  .intro-section {
+    background-color: #1a1f2c;
+    padding: var(--size40) var(--size20) 0;
+  }
+
+  .intro-paragraph {
+    font-size: var(--size22);
+  }
+
   .secondary-section {
     padding: var(--size60) var(--size20);
   }
@@ -307,7 +328,12 @@ circle:nth-child(2) {
 
 @media (max-width: 36rem) {
   li {
-    font-size: var(--size18);
+    font-size: var(--size16);
+  }
+
+  .checkbox {
+    width: var(--size24);
+    height: var(--size24);
   }
 
   .article:not(:last-child) {
@@ -329,6 +355,10 @@ circle:nth-child(2) {
 
   .hero-image {
     margin-top: var(--size40);
+  }
+
+  .intro-paragraph {
+    font-size: var(--size20);
   }
 
   .clear-button {
