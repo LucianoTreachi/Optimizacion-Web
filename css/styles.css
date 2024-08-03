@@ -358,7 +358,7 @@ circle:nth-child(2) {
   }
 
   .intro-paragraph {
-    font-size: var(--size20);
+    font-size: var(--size18);
   }
 
   .clear-button {
