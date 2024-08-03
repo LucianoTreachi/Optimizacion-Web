@@ -193,11 +193,10 @@ li:not(:last-child) {
   font-size: var(--size26);
 }
 
-/* BUTTON */
+/* CLEAR BUTTON */
 
 .clear-button {
   border: none;
-  outline: none;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -209,15 +208,29 @@ li:not(:last-child) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
   background: var(--primary-color);
   z-index: 1;
-  transition: opacity 0.4s;
-}
-
-.clear-button:hover {
-  opacity: 0.8;
 }
 
 .clear-button:active {
   top: 2px;
+}
+
+/* SOUND BUTTON */
+
+.sound-button {
+  border: none;
+  border-radius: 50%;
+  padding: var(--size8);
+  position: fixed;
+  bottom: 7.4rem;
+  right: 5rem;
+  z-index: 2;
+}
+
+.volume-icon,
+.muted-icon {
+  width: var(--size24);
+  height: var(--size24);
+  fill: var(--black);
 }
 
 /* PROGRESS BAR */
@@ -247,8 +260,8 @@ circle:nth-child(2) {
 
 .percentage {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 1.6rem;
+  right: 1rem;
   bottom: 0;
   left: 0;
   font-size: var(--size20);
@@ -324,6 +337,19 @@ circle:nth-child(2) {
   .footer {
     padding: var(--size40) var(--size20);
   }
+
+  .container-circle {
+    right: 0;
+  }
+
+  .percentage {
+    top: 1.2rem;
+    font-size: var(--size18);
+  }
+
+  .sound-button {
+    right: var(--size40);
+  }
 }
 
 @media (max-width: 36rem) {
@@ -375,9 +401,5 @@ circle:nth-child(2) {
 
   .footer a:hover {
     color: var(--white);
-  }
-
-  .container-circle {
-    right: var(--size10);
   }
 }

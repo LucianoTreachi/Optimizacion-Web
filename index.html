@@ -413,11 +413,29 @@
           <button class="clear-button">Borrar todos los checkbox</button>
         </div>
 
+        <!-- Sound Button -->
+        <div>
+          <button class="sound-button" aria-label="Activar o desactivar sonido">
+            <!-- Volume icon -->
+            <svg class="volume-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M8.88889 16H5C4.44772 16 4 15.5523 4 15V9.00001C4 8.44772 4.44772 8.00001 5 8.00001H8.88889L14.1834 3.66815C14.3971 3.49329 14.7121 3.52479 14.887 3.73851C14.9601 3.82784 15 3.93971 15 4.05513V19.9449C15 20.221 14.7761 20.4449 14.5 20.4449C14.3846 20.4449 14.2727 20.405 14.1834 20.3319L8.88889 16ZM18.8631 16.5911L17.4411 15.169C18.3892 14.4376 19 13.2901 19 12C19 10.5697 18.2493 9.31469 17.1203 8.6076L18.5589 7.169C20.0396 8.2616 21 10.0187 21 12C21 13.8422 20.1698 15.4904 18.8631 16.5911Z">
+              </path>
+            </svg>
+            <!-- Muted icon -->
+            <svg class="muted-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;">
+              <path
+                d="M5.88889 16H2C1.44772 16 1 15.5523 1 15V9.00001C1 8.44772 1.44772 8.00001 2 8.00001H5.88889L11.1834 3.66815C11.3971 3.49329 11.7121 3.52479 11.887 3.73851C11.9601 3.82784 12 3.93971 12 4.05513V19.9449C12 20.221 11.7761 20.4449 11.5 20.4449C11.3846 20.4449 11.2727 20.405 11.1834 20.3319L5.88889 16ZM20.4142 12L23.9497 15.5355L22.5355 16.9498L19 13.4142L15.4645 16.9498L14.0503 15.5355L17.5858 12L14.0503 8.46447L15.4645 7.05026L19 10.5858L22.5355 7.05026L23.9497 8.46447L20.4142 12Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
         <!-- Progress Bar -->
         <div class="container-circle">
           <svg class="svg" width="100" height="100">
-            <circle id="outerCircle" r="45" cx="50%" cy="50%" pathLength="99" />
-            <circle id="innerCircle" r="45" cx="50%" cy="50%" pathLength="99" />
+            <circle id="outerCircle" r="35" cx="40%" cy="40%" pathLength="99" />
+            <circle id="innerCircle" r="35" cx="40%" cy="40%" pathLength="99" />
           </svg>
           <span class="percentage" id="percentage">0%</span>
         </div>
