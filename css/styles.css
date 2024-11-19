@@ -158,18 +158,18 @@ li:not(:last-child) {
   text-align: center;
 }
 
-.main-title {
+.hero-title {
   font-size: var(--size80);
   line-height: 1.1;
 }
 
-.paragraph {
-  margin-top: var(--size10);
+.hero-subtitle {
+  margin-top: var(--size30);
   font-size: var(--size24);
-  text-wrap: balance;
+  font-weight: 400;
 }
 
-.paragraph-span {
+.hero-subtitle-span {
   color: var(--primary-color);
   font-weight: 500;
   opacity: 1;
@@ -190,7 +190,7 @@ li:not(:last-child) {
 }
 
 .intro-paragraph {
-  font-size: var(--size26);
+  font-size: var(--size20);
 }
 
 /* CLEAR BUTTON */
@@ -370,11 +370,11 @@ circle:nth-child(2) {
     text-align: initial;
   }
 
-  .main-title {
+  .hero-title {
     font-size: var(--size40);
   }
 
-  .paragraph {
+  .hero-subtitle {
     margin-top: var(--size20);
     font-size: var(--size18);
   }
