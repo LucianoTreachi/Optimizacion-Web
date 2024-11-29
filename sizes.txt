@@ -1,0 +1,49 @@
+Sizes Guide
+-----------
+
+8px   > 0.5rem;
+10px  > 0.625rem;
+12px  > 0.75rem;
+14px  > 0.875rem;
+16px  > 1rem;
+18px  > 1.125rem;
+20px  > 1.25rem;
+22px  > 1.375rem;
+24px  > 1.5rem;
+26px  > 1.625rem;
+28px  > 1.75rem;
+30px  > 1.875rem;
+34px  > 2.125rem;
+36px  > 2.25rem;
+40px  > 2.5rem;
+60px  > 3.75rem;
+80px  > 5rem;
+100px > 6.25rem;
+120px > 7.5rem;
+
+section padding
+---------------
+80px > 5rem
+40px > 2.5rem
+
+40px > 2.5rem 
+20px > 1.25rem
+
+container max-width
+-------------------
+700px > 43.75rem
+
+Media Queries
+-------------
+
+tablet 1
+820px > 51.25rem;
+
+tablet 2
+768px > 48rem;
+
+mobile
+576px > 36rem;
+
+little 
+320px > 20rem;

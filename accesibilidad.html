@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Basic -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accesibilidad</title>
+  <meta name="description"
+    content="Descubre las mejores prácticas de accesibilidad para asegurar que tu sitio sea inclusivo y accesible para todos los usuarios.">
+  <link rel="canonical" href="https://optimizadorweb.vercel.app/accesibilidad">
+  <meta name="author" content="Luciano Treachi">
+  <!-- Fonts -->
+  <link rel="preload" as="font" href="/assets/fonts/Aeonik_Pro.woff2" type="font/woff2" crossorigin="anonymous">
+  <!-- Styles -->
+  <link rel="preload" as="style" href="/css/pages-styles.css">
+  <link rel="stylesheet" href="/css/pages-styles.css">
+  <!-- Scripts -->
+  <script src="/js/progress-bar.js" defer></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon.png">
+  <!-- Facebook -->
+  <meta property="og:url" content="https://optimizadorweb.vercel.app/accesibilidad">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Accesibilidad">
+  <meta property="og:description"
+    content="Descubre las mejores prácticas de accesibilidad para asegurar que tu sitio sea inclusivo y accesible para todos los usuarios.">
+  <meta property="og:image" content="https://i.postimg.cc/nh52jZF3/banner.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="optimizadorweb.vercel.app">
+  <meta property="twitter:url" content="https://optimizadorweb.vercel.app/accesibilidad">
+  <meta name="twitter:title" content="Accesibilidad">
+  <meta name="twitter:description"
+    content="Descubre las mejores prácticas de accesibilidad para asegurar que tu sitio sea inclusivo y accesible para todos los usuarios.">
+  <meta name="twitter:image" content="https://i.postimg.cc/nh52jZF3/banner.jpg">
+</head>
+
+<body>
+  <main>
+    <!-- HERO -->
+    <section class="hero-section" aria-label="Inicio">
+      <div class="container">
+        <a href="javascript:window.history.back()" class="page-back-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z">
+            </path>
+          </svg>
+          Volver
+        </a>
+        <h1 class="hero-title">Accesibilidad</h1>
+
+        <div class="progress-container">
+          <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+            aria-label="Barra de progreso de tareas completadas"></div>
+          <span class="progress-percentage">0%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHECK LIST -->
+    <section class="check-list-section" aria-label="Lista de verificación">
+      <div class="container">
+        <h2 class="check-list-title">Lista de verificación</h2>
+
+          <ul>
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-lang" class="checkbox">
+              <label for="checkbox-lang">
+                <span>lang</span> ¿Está configurado correctamente el atributo lang para el idioma de la página? Por
+                ejemplo, 'es' para español o 'en' para inglés. Esto ayuda a los lectores de pantalla a interpretar
+                correctamente el contenido.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-title" class="checkbox">
+              <label for="checkbox-title">
+                <span>title</span> ¿Está presente la metaetiqueta title? ¿tiene entre 30 y 60 caracteres? ¿Es única en
+                cada página? Esto ayuda a entender en qué página estamos.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-regions" class="checkbox">
+              <label for="checkbox-regions">
+                <span>Regiones</span> ¿Se utilizan etiquetas semánticas para designar regiones? Por ejemplo: header,
+                nav, main, section, article, aside, footer. Esto mejora la estructura del contenido.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-section" class="checkbox">
+              <label for="checkbox-section">
+                <span>Secciones</span> ¿Se utiliza aria-label para etiquetar secciones de la página (section)? Esto
+                proporciona más contexto a los lectores de pantalla.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-h1" class="checkbox">
+              <label for="checkbox-h1">
+                <span>h1</span> ¿Se utiliza un solo h1 por página? Esto ayuda a los usuarios a entender el tema
+                principal de la página.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-headings" class="checkbox">
+              <label for="checkbox-headings">
+                <span>Encabezados - jerarquía</span> ¿Se respetan los niveles jerárquicos en los encabezados (h1, h2,
+                h3, etc.) sin saltos innecesarios? Esto facilita la comprensión del contenido.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-keiboard-navigation" class="checkbox">
+              <label for="checkbox-keiboard-navigation">
+                <span>Navegación con teclado</span> ¿El sitio es navegable con teclado? Esto es esencial para usuarios
+                con movilidad reducida que no utilizan mouse.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-visible-focus" class="checkbox">
+              <label for="checkbox-visible-focus">
+                <span>Foco visible</span> ¿El foco en elementos interactivos es visible? Esto ayuda a identificar dónde
+                está el usuario en la página.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-alt" class="checkbox">
+              <label for="checkbox-alt">
+                <span>alt</span> ¿Las imágenes importantes tienen una descripción alternativa (alt) para el lector de
+                pantalla? Esto ofrece contexto a usuarios que no pueden verlas.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-empty-alt" class="checkbox">
+              <label for="checkbox-empty-alt">
+                <span>alt vacío</span> ¿Las imágenes decorativas tienen alt vacío (alt="")? Esto
+                asegura que el lector de pantalla no las anuncie.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-aria-hidden" class="checkbox">
+              <label for="checkbox-aria-hidden">
+                <span>aria-hidden</span> ¿Los íconos decorativos, formas o separadores visuales tienen
+                aria-hidden=true? Esto asegura que el lector de pantalla no los anuncie.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-links-new-tab" class="checkbox">
+              <label for="checkbox-links-new-tab">
+                <span>Enlaces que abren una nueva pestaña</span> ¿Se informa al usuario cuando un enlace abre una
+                nueva pestaña? Esto puede hacerse mediante un mensaje explícito en el texto del enlace o
+                mediante el atributo aria-label para usuarios de lectores de pantalla.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-links-in-text" class="checkbox">
+              <label for="checkbox-links-in-text">
+                <span>Enlaces alrededor del texto</span> ¿Los enlaces alrededor del texto son distinguibles mediante
+                color, subrayado u otro estilo visible? Esto asegura que los usuarios los puedan identificar fácilmente.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-icon-buttons" class="checkbox">
+              <label for="checkbox-icon-buttons">
+                <span>Botones y enlaces de íconos</span> ¿Los botones y enlaces de íconos tienen el atributo aria-label?
+                Esto asegura una descripción precisa para el lector de pantalla.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-image-buttons" class="checkbox">
+              <label for="checkbox-image-buttons">
+                <span>Botones y enlaces de imagen</span> ¿Los botones y enlaces de imagen tienen el atributo aria-label?
+                Esto asegura una descripción precisa para el lector de pantalla.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-label" class="checkbox">
+              <label for="checkbox-label">
+                <span>label</span> ¿Se utiliza la etiqueta label junto a input (de cualquier tipo), select y textarea?
+                Esto permite a los usuarios entender la función de cada campo.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-contrast" class="checkbox">
+              <label for="checkbox-contrast">
+                <span>Contraste entre texto y fondo</span> ¿El contraste cumple con la proporción mínima de 4.5:1 para
+                texto normal y 3:1 para texto grande? Esto asegura que el texto sea legible para usuarios con baja
+                visión o daltonismo.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-touch-targets" class="checkbox">
+              <label for="checkbox-touch-targets">
+                <span>Objetivos táctiles</span> ¿Los objetivos táctiles tienen un tamaño mínimo de 48x48 píxeles? Esto
+                facilita la interacción en dispositivos móviles.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-icons" class="checkbox">
+              <label for="checkbox-icons">
+                <span>Íconos</span> ¿Se procura utilizar íconos para acompañar ciertos mensajes informativos? Esto
+                mejora la percepción y claridad del mensaje.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-easy-language" class="checkbox">
+              <label for="checkbox-easy-language">
+                <span>Lenguaje claro</span> ¿Se utiliza un lenguaje claro y fácil de entender para la mayoría de
+                usuarios? Esto permite que se comprenda el contenido rápidamente.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-flexible-font" class="checkbox">
+              <label for="checkbox-flexible-font">
+                <span>Fuente flexible</span> ¿Se utiliza la unidad 'rem' para tamaños de fuente? Esto
+                permite que el texto se ajuste a las preferencias del usuario.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-modals" class="checkbox">
+              <label for="checkbox-modals">
+                <span>Modal</span> ¿Se siguen las mejores prácticas al crear un modal? (1) Cuando el modal se abre, el
+                foco se debe trasladar al primer elemento interactivo. (2) Debe existir una trampa de foco que no
+                permita salir del modal hasta que se cierre. (3) El modal se debe poder cerrar con la tecla Escape. (4)
+                Cuando el modal se cierre, el foco se debe devolver al elemento que lo abrió.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-carousel" class="checkbox">
+              <label for="checkbox-carousel">
+                <span>Carrusel</span> ¿Se siguen las mejores prácticas al crear un carrusel? (1) Los botones de avanzar
+                y retroceder tienen que tener aria-label. (2) Tiene que ser navegable con teclado. (3) Las diapositivas
+                que no están visibles tienen que tener aria-hidden para no ser anunciadas por el lector de pantalla.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-video-captions" class="checkbox">
+              <label for="checkbox-video-captions">
+                <span>Subtítulos en video</span> ¿Todos los videos cuentan con subtítulos para usuarios con discapacidad
+                auditiva? Esto ayuda a entender el contenido.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-video-controls" class="checkbox">
+              <label for="checkbox-video-controls">
+                <span>Controles en video</span> ¿Los controles de reproducción, pausa y volumen del video son accesibles
+                y navegables con teclado? Esto ayuda a controlar el video sin depender del mouse.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-autoplay" class="checkbox">
+              <label for="checkbox-autoplay">
+                <span>Reproducción automática</span> ¿La reproducción automática se puede desactivar fácilmente? Esto
+                evita la distracción y le otorga control al usuario.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-skip-navigation" class="checkbox">
+              <label for="checkbox-skip-navigation">
+                <span>Omitir navegación</span> ¿Se incluye un enlace oculto que permita saltar la navegación? Esto ayuda
+                a los usuarios de teclado a acceder rápidamente al contenido principal.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-browser-font-size" class="checkbox">
+              <label for="checkbox-browser-font-size">
+                <span>Navegador - tamaño de fuente</span> ¿Se realizan pruebas para comprobar qué sucede si se achica o
+                agranda el tamaño de fuente base desde el navegador? Esto asegura que el contenido se ajuste
+                correctamente cuando los usuarios cambian el tamaño de la fuente.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-tests" class="checkbox">
+              <label for="checkbox-tests">
+                <span>Extensiones y sitios exclusivos</span> ¿Se realizan pruebas regulares con extensiones y sitios
+                especializados en Accesibilidad? Esto ayuda a detectar problemas.
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="checkbox" id="checkbox-screen-readers" class="checkbox">
+              <label for="checkbox-screen-readers">
+                <span>Lectores de pantalla</span> ¿Se realizan pruebas regulares con lectores de pantalla como NVDA,
+                Jaws, TalkBack, VoiceOver? Esto ayuda a detectar problemas de accesibilidad.
+              </label>
+            </li>
+          </ul>
+
+        <button class="clear-checkboxes-btn">Borrar todas las casillas de verificación</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Sitio Web desarrollado <br> por Luciano Treachi</p>
+
+      <div class="icons">
+        <a href="https://github.com/LucianoTreachi/"
+          aria-label="Github de Luciano Treachi (se abre en una nueva pestaña)" target="_blank" rel="noreferrer">
+          <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+            aria-hidden="true">
+            <path
+              d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+            </path>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/luciano-treachi/"
+          aria-label="LinkedIn de Luciano Treachi (se abre en una nueva pestaña)" target="_blank" rel="noreferrer">
+          <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+            aria-hidden="true">
+            <path
+              d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z">
+            </path>
+          </svg>
+        </a>
+
+        <a href="https://lucianotreachi.vercel.app/"
+          aria-label="Sitio web de Luciano Treachi (se abre en una nueva pestaña)" target="_blank" rel="noreferrer">
+          <svg class="website-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+            aria-hidden="true">
+            <path
+              d="M2.04932 12.9999H7.52725C7.70624 16.2688 8.7574 19.3053 10.452 21.8809C5.98761 21.1871 2.5001 17.5402 2.04932 12.9999ZM2.04932 10.9999C2.5001 6.45968 5.98761 2.81276 10.452 2.11902C8.7574 4.69456 7.70624 7.73111 7.52725 10.9999H2.04932ZM21.9506 10.9999H16.4726C16.2936 7.73111 15.2425 4.69456 13.5479 2.11902C18.0123 2.81276 21.4998 6.45968 21.9506 10.9999ZM21.9506 12.9999C21.4998 17.5402 18.0123 21.1871 13.5479 21.8809C15.2425 19.3053 16.2936 16.2688 16.4726 12.9999H21.9506ZM9.53068 12.9999H14.4692C14.2976 15.7828 13.4146 18.3732 11.9999 20.5915C10.5852 18.3732 9.70229 15.7828 9.53068 12.9999ZM9.53068 10.9999C9.70229 8.21709 10.5852 5.62672 11.9999 3.40841C13.4146 5.62672 14.2976 8.21709 14.4692 10.9999H9.53068Z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

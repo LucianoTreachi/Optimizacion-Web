@@ -1,0 +1,427 @@
+/* GLOBAL */
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('/assets/fonts/Aeonik_Pro.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --hero: #1c1c1f;
+  --body: #1c1c1f;
+  --black: #020202;
+  --white: #f0f0f0;
+  --footer: #0a0d18;
+  --accent-color: #f2a71d;
+
+  --border-radius: 1rem;
+
+  --primary-font: 'Aeonik Pro', sans-serif;
+  --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--body);
+  color: var(--white);
+  font-family: var(--primary-font)
+}
+
+a {
+  color: var(--accent-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  letter-spacing: 0.025em;
+}
+
+a,
+button,
+summary {
+  outline-offset: 0.5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+}
+
+/* COMMON CLASSES */
+
+.section {
+  padding: 5rem 2.5rem;
+}
+
+.container {
+  max-width: 43.75rem;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.highlighter-svg-container {
+  margin-top: 2rem;
+  display: grid;
+  place-items: center;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: var(--hero);
+  padding: 7.5rem 2.5rem;
+  text-align: center;
+}
+
+.hero-section .container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  max-width: 80%;
+  margin: 1.875rem auto 0;
+}
+
+.hero-subtitle-span {
+  color: var(--accent-color);
+  font-weight: 500;
+  opacity: 1;
+}
+
+/* AREAS SECTION */
+
+.areas {
+  margin-top: 3.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.area {
+  border-radius: var(--border-radius);
+  background-color: #eae8e8;
+  padding: 2.5rem 1.25rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  transition: filter 0.3s;
+}
+
+.area:hover {
+  filter: opacity(80%);
+}
+
+.area svg {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.area h3 {
+  font-size: 1.5rem;
+  color: #0a0d18;
+  text-align: center;
+}
+
+.area p {
+  font-size: 1.125rem;
+  color: #0a0d18;
+  text-align: center;
+}
+
+.area-basic-configurations {
+  background-color: #ffeaea;
+}
+
+.area-ux {
+  background-color: #dbe8fa;
+}
+
+.area-velocity {
+  background-color: #e6fff3;
+}
+
+.area-accessibility {
+  background-color: #e3dfff;
+}
+
+/* USEFUL SITES SECTION */
+
+.sites {
+  margin-top: 3.75rem;
+  display: grid;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.site-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid var(--body);
+}
+
+.site-link:hover {
+  border-radius: var(--border-radius);
+  border: 2px solid lightgray;
+}
+
+.site-logo {
+  border-radius: var(--border-radius);
+}
+
+.site-heading {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.site-description {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  text-align: center;
+  text-wrap: balance;
+  color: var(--white);
+  opacity: 0.85;
+}
+
+/*=============================== 
+SECTION: FAQS
+================================*/
+
+.faqs {
+  margin-top: 3.75rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.details {
+  border-radius: var(--border-radius);
+  background-color: var(--hero);
+  background-color: rgba(10, 13, 24, 0.65);
+}
+
+.summary {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.summary h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.summary-icon {
+  min-width: 2.4rem;
+  height: 2.4rem;
+  fill: var(--accent-color);
+  transition: transform .3s ease;
+}
+
+.details[open] .summary-icon {
+  transform: rotate(180deg);
+}
+
+.answer {
+  padding: 0 1.25rem 1.25rem;
+  width: 90%;
+  font-size: 1.125rem;
+  opacity: 0.85;
+}
+
+.answer-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+  margin-top: 3.75rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.call-to-action p {
+  font-size: 1.125rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.email-link {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--footer);
+  padding: 5rem 2.5rem;
+}
+
+.footer p {
+  font-family: var(--secondary-font);
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: center;
+  opacity: 0.85;
+  margin-bottom: 1.25rem;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.footer a {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  transition: color 0.4s;
+}
+
+.footer a:hover {
+  color: var(--accent-color);
+}
+
+.github-icon,
+.linkedin-icon,
+.website-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* RESPONSIVE */
+
+/* 576px */
+@media (max-width: 36rem) {
+  .section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .section-title {
+    font-size: 1.625rem;
+    width: 100%;
+  }
+
+  .hero-section {
+    padding: 7.5rem 1.25rem;
+  }
+
+  .hero-title {
+    font-size: 3.75rem;
+  }
+
+  .hero-subtitle {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+  }
+
+  .areas {
+    grid-template-columns: 1fr;
+  }
+
+  .area {
+    padding: 1.25rem;
+  }
+
+  .area:hover {
+    filter: opacity(100%);
+  }
+
+  .area svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .site-link {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .site-link:hover {
+    border: 2px solid var(--body);
+  }
+
+  .footer {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+
+  .footer a:hover {
+    color: var(--white);
+  }
+
+  .github-icon,
+  .linkedin-icon,
+  .website-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}
