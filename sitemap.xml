@@ -1,12 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://optimizatusitioweb.vercel.app/</loc>
-  <lastmod>2024-04-03T14:52:06+00:00</lastmod>
+<loc>https://optimizadorweb.vercel.app/</loc>
+<lastmod>2024-11-29T17:01:29+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://optimizadorweb.vercel.app/configuraciones-basicas</loc>
+<lastmod>2024-11-29T17:01:29+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://optimizadorweb.vercel.app/ux-ui-practicas-de-usabilidad</loc>
+<lastmod>2024-11-29T17:01:29+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://optimizadorweb.vercel.app/velocidad-y-rendimiento</loc>
+<lastmod>2024-11-29T17:01:29+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://optimizadorweb.vercel.app/accesibilidad</loc>
+<lastmod>2024-11-29T17:01:29+01:00</lastmod>
+<priority>1.0</priority>
 </url>
 </urlset>
