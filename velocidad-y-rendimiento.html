@@ -63,180 +63,180 @@
       <div class="container">
         <h2 class="check-list-title">Lista de verificación</h2>
 
-          <ul>
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-images-dimensions" class="checkbox">
-              <label for="checkbox-images-dimensions">
-                <span>Imágenes - dimensiones</span> ¿Las imágenes se redimensionan para que pesen menos? Por ejemplo,
-                pasar de 2000x2000 a 1000x1000, 800x800, 500x500, etc. Esto mejora los tiempos de carga.
-              </label>
-            </li>
+        <ul>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-images-dimensions" class="checkbox">
+            <label for="checkbox-images-dimensions">
+              <span>Imágenes - dimensiones</span> ¿Las imágenes se redimensionan para que pesen menos? Por ejemplo,
+              pasar de 2000x2000 a 1000x1000, 800x800, 500x500, etc. Esto mejora los tiempos de carga.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-images-weight" class="checkbox">
-              <label for="checkbox-images-weight">
-                <span>Imágenes - compresión</span> ¿Las imágenes se comprimen para que pesen menos? Por ejemplo, pasar
-                de 500 KB a 100 KB o menos. Esto ahorra ancho de banda.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-images-weight" class="checkbox">
+            <label for="checkbox-images-weight">
+              <span>Imágenes - compresión</span> ¿Las imágenes se comprimen para que pesen menos? Por ejemplo, pasar
+              de 500 KB a 100 KB o menos. Esto ahorra ancho de banda.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-images-vector" class="checkbox">
-              <label for="checkbox-images-vector">
-                <span>Imágenes - vectorización</span> ¿Se vectorizan imágenes como logos, íconos, formas, separadores?
-                Los gráficos vectoriales son ligeros y mantienen nitidez al escalarse.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-images-vector" class="checkbox">
+            <label for="checkbox-images-vector">
+              <span>Imágenes - vectorización</span> ¿Se vectorizan imágenes como logos, íconos, formas, separadores?
+              Los gráficos vectoriales son ligeros y mantienen nitidez al escalarse.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-images-format" class="checkbox">
-              <label for="checkbox-images-format">
-                <span>Imágenes - formato</span> ¿Se utilizan formatos de última generación como WebP o AVIF? Estos
-                formatos ofrecen mejor compresión que PNG o JPG.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-images-format" class="checkbox">
+            <label for="checkbox-images-format">
+              <span>Imágenes - formato</span> ¿Se utilizan formatos de última generación como WebP o AVIF? Estos
+              formatos ofrecen mejor compresión que PNG o JPG.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-images-loading" class="checkbox">
-              <label for="checkbox-images-loading">
-                <span>Imágenes - carga diferida</span> ¿Se utiliza el atributo loading=lazy en imágenes que se
-                encuentran desde la mitad de la página hacia abajo? Esto ahorra ancho de banda.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-images-loading" class="checkbox">
+            <label for="checkbox-images-loading">
+              <span>Imágenes - carga diferida</span> ¿Se utiliza el atributo loading=lazy en imágenes que se
+              encuentran desde la mitad de la página hacia abajo? Esto ahorra ancho de banda.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-responsive-images" class="checkbox">
-              <label for="checkbox-responsive-images">
-                <span>Imágenes - versiones</span> ¿Se entregan distintas versiones de la imagen según el dispositivo
-                utilizado? Esto se puede hacer con CDNs como Cloudinary, o utilizando picture, srcset y sizes.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-responsive-images" class="checkbox">
+            <label for="checkbox-responsive-images">
+              <span>Imágenes - versiones</span> ¿Se entregan distintas versiones de la imagen según el dispositivo
+              utilizado? Esto se puede hacer con CDNs como Cloudinary, o utilizando picture, srcset y sizes.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-multimedia-space" class="checkbox">
-              <label for="checkbox-multimedia-space">
-                <span>Reservar espacio</span> ¿Se reserva el espacio correcto para elementos multimedia como imágenes,
-                videos, iframe? Usar width, height o aspect-ratio reduce el CLS (Cumulative Layout Shift).
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-multimedia-space" class="checkbox">
+            <label for="checkbox-multimedia-space">
+              <span>Reservar espacio</span> ¿Se reserva el espacio correcto para elementos multimedia como imágenes,
+              videos, iframe? Usar width, height o aspect-ratio reduce el CLS (Cumulative Layout Shift).
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-poster" class="checkbox">
-              <label for="checkbox-poster">
-                <span>Videos - poster</span> ¿Se utiliza el atributo poster en videos? Esto permite cargar una portada
-                mientras el video no inicia.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-poster" class="checkbox">
+            <label for="checkbox-poster">
+              <span>Videos - poster</span> ¿Se utiliza el atributo poster en videos? Esto permite cargar una portada
+              mientras el video no inicia.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-minification" class="checkbox">
-              <label for="checkbox-minification">
-                <span>Minificación</span> ¿Se minifican los archivos CSS y JavaScript si es posible? Esto reduce el
-                tamaño de los recursos y mejora los tiempos de carga.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-minification" class="checkbox">
+            <label for="checkbox-minification">
+              <span>Minificación</span> ¿Se minifican los archivos CSS y JavaScript si es posible? Esto reduce el
+              tamaño de los recursos y mejora los tiempos de carga.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-css" class="checkbox">
-              <label for="checkbox-css">
-                <span>CSS inutilizable</span> ¿Se realiza un escaneo del CSS que no se utiliza para poder quitarlo? Esto
-                se hace desde: Herramientas de desarrollo / Cobertura. Quitar código innecesario
-                acelera la carga inicial. Se recomienda hacerlo desde una ventana de incógnito.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-css" class="checkbox">
+            <label for="checkbox-css">
+              <span>CSS inutilizable</span> ¿Se realiza un escaneo del CSS que no se utiliza para poder quitarlo? Esto
+              se hace desde: Herramientas de desarrollo / Cobertura. Se recomienda hacerlo desde una ventana de
+              incógnito.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-import-css" class="checkbox">
-              <label for="checkbox-import-css">
-                <span>@import</span> ¿Se evita la declaración @import en CSS? Esto mejora la velocidad de carga de la
-                página.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-import-css" class="checkbox">
+            <label for="checkbox-import-css">
+              <span>@import</span> ¿Se evita la declaración @import en CSS? Esto mejora la velocidad de carga de la
+              página.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-async-js" class="checkbox">
-              <label for="checkbox-async-js">
-                <span>defer o async</span> ¿Se cargan los scripts con defer o async según sea necesario? Estos atributos
-                permiten que los scripts se carguen de forma no bloqueante.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-async-js" class="checkbox">
+            <label for="checkbox-async-js">
+              <span>defer o async</span> ¿Se cargan los scripts con defer o async según sea necesario? Estos atributos
+              permiten que los scripts se carguen de forma no bloqueante.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-preloads" class="checkbox">
-              <label for="checkbox-preloads">
-                <span>preload</span> ¿Se utiliza preload para cargar recursos críticos? Esto acelera el tiempo hasta que
-                el recurso esté disponible.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-preloads" class="checkbox">
+            <label for="checkbox-preloads">
+              <span>preload</span> ¿Se utiliza preload para cargar recursos críticos? Esto acelera el tiempo hasta que
+              el recurso esté disponible.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-fetchpriority" class="checkbox">
-              <label for="checkbox-fetchpriority">
-                <span>fetchpriority</span> ¿Se utiliza el atributo fetchpriority cuando es necesario? Esto
-                permite aumentar la prioridad de carga de un recurso.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-fetchpriority" class="checkbox">
+            <label for="checkbox-fetchpriority">
+              <span>fetchpriority</span> ¿Se utiliza el atributo fetchpriority cuando es necesario? Esto
+              permite aumentar la prioridad de carga de un recurso.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-third-party-resources" class="checkbox">
-              <label for="checkbox-third-party-resources">
-                <span>Recursos de terceros</span> ¿Se aplican técnicas para minimizar el impacto de recursos de terceros
-                como videos de YouTube y Vimeo, mapas de Google, widgets, etc? Por ejemplo, mostrando una fachada hasta
-                que el usuario interactúe.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-third-party-resources" class="checkbox">
+            <label for="checkbox-third-party-resources">
+              <span>Recursos de terceros</span> ¿Se aplican técnicas para minimizar el impacto de recursos de terceros
+              como videos de YouTube y Vimeo, mapas de Google, widgets, etc? Por ejemplo, mostrando una fachada hasta
+              que el usuario interactúe.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-fonts-format" class="checkbox">
-              <label for="checkbox-fonts-format">
-                <span>Fuentes - formato</span> ¿Se utilizan formatos ligeros como WOFF2? Esto reduce el peso de las
-                fuentes.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-fonts-format" class="checkbox">
+            <label for="checkbox-fonts-format">
+              <span>Fuentes - formato</span> ¿Se utilizan formatos ligeros como WOFF2? Esto reduce el peso de las
+              fuentes.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-fonts-quantity" class="checkbox">
-              <label for="checkbox-fonts-quantity">
-                <span>Fuentes - cantidad</span> ¿Se utilizan pocas fuentes en el sitio? Preferiblemente una o dos para
-                reducir el tiempo de carga.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-fonts-quantity" class="checkbox">
+            <label for="checkbox-fonts-quantity">
+              <span>Fuentes - cantidad</span> ¿Se utilizan pocas fuentes en el sitio? Preferiblemente una o dos para
+              reducir el tiempo de carga.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-fonts-preload" class="checkbox">
-              <label for="checkbox-fonts-preload">
-                <span>Fuentes - precarga</span> ¿Se precargan las fuentes con preload o preconnect? Esto agiliza su
-                descarga.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-fonts-preload" class="checkbox">
+            <label for="checkbox-fonts-preload">
+              <span>Fuentes - precarga</span> ¿Se precargan las fuentes con preload o preconnect? Esto agiliza su
+              descarga.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-fonts-crossorigin" class="checkbox">
-              <label for="checkbox-fonts-crossorigin">
-                <span>Fuentes - crossorigin</span> ¿Se utiliza el atributo crossorigin al cargar las fuentes? Esto
-                mejora la carga de las fuentes.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-fonts-crossorigin" class="checkbox">
+            <label for="checkbox-fonts-crossorigin">
+              <span>Fuentes - crossorigin</span> ¿Se utiliza el atributo crossorigin al cargar las fuentes? Esto
+              mejora la carga de las fuentes.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-loaded-resources" class="checkbox">
-              <label for="checkbox-loaded-resources">
-                <span>Totalidad de recursos cargados</span> ¿Se verifica cuántos recursos carga la página? Esto se
-                hace desde: Herramientas de desarrollo / Red / Actualizar. Se recomienda hacerlo desde una ventana de
-                incógnito.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-loaded-resources" class="checkbox">
+            <label for="checkbox-loaded-resources">
+              <span>Totalidad de recursos cargados</span> ¿Se verifica cuántos recursos carga la página? Esto se
+              hace desde: Herramientas de desarrollo / Red / Actualizar. Se recomienda hacerlo desde una ventana de
+              incógnito.
+            </label>
+          </li>
 
-            <li>
-              <input type="checkbox" name="checkbox" id="checkbox-network-tests" class="checkbox">
-              <label for="checkbox-network-tests">
-                <span>Pruebas de red</span> ¿Se realizan pruebas simulando distintas conexiones de red? Esto se
-                hace desde: Herramientas de desarrollo / Red / 4G rápido, 4G lento, 3G /
-                Actualizar. Se recomienda hacerlo desde una ventana de incógnito.
-              </label>
-            </li>
+          <li>
+            <input type="checkbox" name="checkbox" id="checkbox-network-tests" class="checkbox">
+            <label for="checkbox-network-tests">
+              <span>Pruebas de red</span> ¿Se realizan pruebas simulando distintas conexiones de red? Esto se
+              hace desde: Herramientas de desarrollo / Red / 4G rápido, 4G lento, 3G /
+              Actualizar. Se recomienda hacerlo desde una ventana de incógnito.
+            </label>
+          </li>
 
-          </ul>
+        </ul>
 
         <button class="clear-checkboxes-btn">Borrar todas las casillas de verificación</button>
       </div>
