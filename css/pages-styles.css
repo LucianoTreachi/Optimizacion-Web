@@ -145,8 +145,8 @@ fieldset {
 
 .progress-percentage {
   font-size: 1rem;
-  color: var(--black);
   font-weight: 600;
+  color: var(--black);
   white-space: nowrap;
   position: absolute;
   top: 0.5rem;
