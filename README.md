@@ -4,7 +4,7 @@
 
 ## Vista previa
 
-[![website.jpg](https://i.postimg.cc/rFFF2Ksv/website.jpg)](https://postimg.cc/grQPvcvD)
+[![Vista previa del sitio Optimizador Web](https://i.postimg.cc/rFFF2Ksv/website.jpg)](https://postimg.cc/grQPvcvD)
 
 ## ¿Cómo comenzar a utilizar este recurso?
 
@@ -13,15 +13,15 @@
 2. Explora las áreas de verificación interactivas y marca las casillas para saber si tu sitio
    o aplicación está siguiendo las mejores prácticas. ¡A medida que completas las listas de verificación, una barra de progreso se actualiza para que alcances el 100%!
 
-[![image](https://i.postimg.cc/VLB808v9/areas.jpg)](https://postimg.cc/6y3SFFdT)
+[![Áreas de verificación](https://i.postimg.cc/VLB808v9/areas.jpg)](https://postimg.cc/6y3SFFdT)
 
 3. Usa herramientas externas para analizar el rendimiento de tu sitio o aplicación en tiempo real. Solo necesitas ingresar la URL.
 
-[![image](https://i.postimg.cc/GhYpMV29/sites.jpg)](https://postimg.cc/JGrm0TjW)
+[![Herramientas online](https://i.postimg.cc/gJfJY1xj/sites.jpg)](https://postimg.cc/9RYVb8tH)
 
 4. Mejora tu flujo de trabajo con extensiones recomendadas que detectan problemas al instante.
 
-[![image](https://i.postimg.cc/QMSG4k1F/extensions.jpg)](https://postimg.cc/066BrStv)
+[![Extensiones recomendadas](https://i.postimg.cc/QMSG4k1F/extensions.jpg)](https://postimg.cc/066BrStv)
 
 ## Áreas de verificación disponibles
 
@@ -40,6 +40,7 @@
 - PageSpeed Insights
 - Wave
 - Accessibility Checker
+- Responsive Design Checker
 
 ## Extensiones recomendadas
 
