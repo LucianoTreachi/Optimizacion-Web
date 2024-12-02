@@ -145,7 +145,7 @@ p {
   gap: 2.5rem;
 }
 
-.area {
+.area-link {
   border-radius: var(--border-radius);
   background-color: #eae8e8;
   padding: 2.5rem 1.25rem;
@@ -158,40 +158,40 @@ p {
   transition: filter 0.3s;
 }
 
-.area:hover {
+.area-link:hover {
   filter: opacity(80%);
 }
 
-.area svg {
+.area-link svg {
   width: 3.75rem;
   height: 3.75rem;
 }
 
-.area h3 {
+.area-link h3 {
   font-size: 1.5rem;
   color: #0a0d18;
   text-align: center;
 }
 
-.area p {
+.area-link p {
   font-size: 1.125rem;
   color: #0a0d18;
   text-align: center;
 }
 
-.area-basic-configurations {
+.area-link.basic-configurations {
   background-color: #ffeaea;
 }
 
-.area-ux {
+.area-link.ux {
   background-color: #dbe8fa;
 }
 
-.area-velocity {
+.area-link.velocity {
   background-color: #e6fff3;
 }
 
-.area-accessibility {
+.area-link.accessibility {
   background-color: #e3dfff;
 }
 
@@ -384,15 +384,15 @@ SECTION: FAQS
     grid-template-columns: 1fr;
   }
 
-  .area {
+  .area-link {
     padding: 1.25rem;
   }
 
-  .area:hover {
+  .area-link:hover {
     filter: opacity(100%);
   }
 
-  .area svg {
+  .area-link svg {
     width: 2.5rem;
     height: 2.5rem;
   }
