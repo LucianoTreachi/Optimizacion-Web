@@ -17,7 +17,7 @@
 
 3. Usa herramientas externas para analizar el rendimiento de tu sitio o aplicación en tiempo real. Solo necesitas ingresar la URL.
 
-[![Herramientas online](https://i.postimg.cc/gJfJY1xj/sites.jpg)](https://postimg.cc/9RYVb8tH)
+[![Herramientas online](https://i.postimg.cc/F1X92h39/sites.jpg)](https://postimg.cc/0KZRSRV3)
 
 4. Mejora tu flujo de trabajo con extensiones recomendadas que detectan problemas al instante.
 
