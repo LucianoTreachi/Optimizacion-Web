@@ -8,7 +8,7 @@
 
 ## ¿Cómo comenzar a utilizar este recurso?
 
-1. Ingresa al sitio web [Optimizador Web](https://optimizadorweb.vercel.app/)
+1. Ingresa al sitio web [Optimizador Web](https://optimizadorweb.site/)
 
 2. Explora las áreas de verificación interactivas y marca las casillas para saber si tu sitio
    o aplicación está siguiendo las mejores prácticas. ¡A medida que completas las listas de verificación, una barra de progreso se actualiza para que alcances el 100%!
