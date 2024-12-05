@@ -104,7 +104,7 @@ git push origin nueva-funcionalidad
 
 **7. Crea un Pull Request:** Desde tu repositorio en GitHub, haz clic en "New Pull Request" y describe tus cambios.
 
-¡La contribución será de gran ayuda!
+¡Tu contribución será de gran ayuda!
 
 ## Desarrollado por
 
