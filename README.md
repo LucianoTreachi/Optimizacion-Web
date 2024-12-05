@@ -1,6 +1,10 @@
 # Optimizador Web: Un Recurso Integral para la Optimización de Sitios Web
 
-**Optimizador Web** es tu aliado en la creación de sitios y aplicaciones de alto rendimiento. Ofrece listas de verificación interactivas, herramientas online y extensiones, diseñadas para ayudarte a cumplir con los más altos estándares en accesibilidad, diseño y velocidad. Ideal tanto para desarrolladores novatos como para expertos que buscan mejorar la calidad y eficiencia de sus proyectos web.
+**Optimizador Web** es una herramienta diseñada para ayudarte a cumplir con los más altos estándares en ux/ui, velocidad y accesibilidad.
+
+Ofrece listas de verificación interactivas, herramientas online y extensiones.
+
+Es ideal tanto para desarrolladores novatos como para expertos que buscan mejorar la calidad y eficiencia de sus proyectos web.
 
 ## Tabla de Contenidos
 
