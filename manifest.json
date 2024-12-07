@@ -1,14 +1,14 @@
 {
   "name": "Optimizador Web",
-  "theme_color": "#f2991d",
-  "background_color": "#1c1c1f",
-  "short_name": "Optimizador Web",
+  "short_name": "Optimizador",
+  "description": "Descubre las claves para un desarrollo web óptimo y logra el máximo rendimiento en tu sitio.",
   "id": "/",
   "start_url": "/",
-  "description": "Descubre las claves para un desarrollo web óptimo y logra el máximo rendimiento en tu sitio.",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
+  "background_color": "#1c1c1f",
+  "theme_color": "#f2991d",
   "launch_handler": { "client_mode": ["navigate-existing", "auto"] },
   "lang": "es",
   "screenshots": [
