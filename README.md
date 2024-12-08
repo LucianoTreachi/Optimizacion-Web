@@ -19,7 +19,7 @@ Es ideal tanto para desarrolladores novatos como para expertos que buscan mejora
 
 ## Vista previa
 
-[![Vista previa del sitio Optimizador Web](https://i.postimg.cc/rFFF2Ksv/website.jpg)](https://postimg.cc/grQPvcvD)
+[![Vista previa del sitio Optimizador Web](https://i.postimg.cc/05LHPBBJ/website.png)](https://postimg.cc/K4D55JFZ)
 
 ## Cómo comenzar a utilizar este recurso
 
@@ -79,36 +79,53 @@ Mi compromiso es hacer de este recurso el más completo y útil para todos los d
 
 Sigue estos pasos:
 
-**1. Haz un fork del repositorio:** Crea tu copia del repositorio desde el botón "Fork".
+### 1. Realiza un fork del repositorio
 
-**2. Clona el repositorio localmente:** Descarga tu copia localmente.
+Haz clic en el botón de Fork en GitHub para crear tu copia del proyecto.
+
+[![Fork](https://i.postimg.cc/9FR1kYXF/Fork.png)](https://postimg.cc/VdwjrMb3)
+
+### 2. Clona el repositorio
+
+Descarga el repositorio en tu computadora local con el siguiente comando:
 
 ```bash
 git clone https://github.com/LucianoTreachi/optimizador-web.git
 ```
 
-**3. Crea una nueva rama:** Asegúrate de estar en la rama main y crea una nueva.
+### 3. Crea una rama para tus cambios
+
+Utiliza un nombre descriptivo para tu rama, indicando la funcionalidad o mejora que implementarás:
 
 ```bash
-git checkout -b nueva-funcionalidad
+git checkout -b nombre-de-la-rama
 ```
 
-**4. Realiza los cambios y confirma:** Haz las modificaciones necesarias en el código, agrega nuevas funciones, corrige errores o mejora la documentación.
+### 4. Realiza los cambios y sube tu rama
+
+Una vez que hayas finalizado los cambios y corroborado que todo funciona correctamente, sube tu rama al repositorio remoto:
 
 ```bash
 git add .
-git commit -m "Descripción de tu contribución"
+git commit -m "Descripción breve de los cambios realizados"
+git push origin nombre-de-la-rama
 ```
 
-**5. Sube tu rama:** Sube los cambios de tu rama al repositorio remoto en tu fork.
+### 5. Crea un Pull Request
 
-```bash
-git push origin nueva-funcionalidad
-```
+Desde tu repositorio en GitHub, envía un Pull Request con una descripción detallada de tus cambios. Esto permitirá que tus contribuciones sean revisadas e integradas.
 
-**7. Crea un Pull Request:** Desde tu repositorio en GitHub, haz clic en "New Pull Request" y describe tus cambios.
+[![Pull request](https://i.postimg.cc/s2VY3YzW/pr.png)](https://postimg.cc/fVrtK0JW)
 
 ¡Tu contribución será de gran ayuda!
+
+### Sugerencias para contribuir
+
+**• Ideas de mejora**: Si tienes una idea para una nueva funcionalidad o herramienta, ¡compártela! Puedes abrir un Issue para discutir tu propuesta antes de comenzar a trabajar.
+
+**• Corrección de errores**: Si encuentras algún problema en el sitio, por pequeño que sea, reportarlo o corregirlo será de gran ayuda.
+
+**• Documentación**: Si crees que alguna sección del README u otra parte de la documentación podría mejorarse, siéntete libre de hacerlo.
 
 ## Desarrollado por
 
