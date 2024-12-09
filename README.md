@@ -15,7 +15,8 @@ Es ideal tanto para desarrolladores novatos como para expertos que buscan mejora
 5. [Extensiones recomendadas](#extensiones-recomendadas)
 6. [Sugerencias](#sugerencias)
 7. [Contribuciones](#contribuciones)
-8. [Desarrollado por](#desarrollado-por)
+8. [Reportar problemas](#reportar-problemas)
+9. [Desarrollado por](#desarrollado-por)
 
 ## Vista previa
 
@@ -59,25 +60,23 @@ Es ideal tanto para desarrolladores novatos como para expertos que buscan mejora
 
 ## Extensiones recomendadas
 
-- Meta Explorer - SEO
-- Wave - Accesibilidad Web
-- Axe DevTools - Accesibilidad Web
+- Meta Explorer
+- Wave
+- Axe DevTools
 
 ## Sugerencias
 
-¿Tienes alguna sugerencia o herramienta que te gustaría ver en el sitio?
+Si tienes ideas para mejorar el recurso, nuevas herramientas para añadir o cualquier otra sugerencia, ¡estoy abierto a escucharte!
 
-🔗 Conéctate conmigo en LinkedIn [Luciano Treachi](https://www.linkedin.com/in/luciano-treachi/)
+- 🔗 Conéctate conmigo en LinkedIn [Luciano Treachi](https://www.linkedin.com/in/luciano-treachi/)
 
-✉️ Envíame un email a: [lucianotreachi@outlook.com](mailto:lucianotreachi@outlook.com)
+- ✉️ Envíame un email a: [lucianotreachi@outlook.com](mailto:lucianotreachi@outlook.com)
 
 Mi compromiso es hacer de este recurso el más completo y útil para todos los desarrolladores web.
 
 ## Contribuciones
 
-¿Te gustaría contribuir con el proyecto y hacer de este el MEJOR RECURSO de optimización web?
-
-Sigue estos pasos:
+Si deseas contribuir al proyecto y ayudar a mejorar este recurso, sigue estos pasos para hacer tu contribución.
 
 ### 1. Realiza un fork del repositorio
 
@@ -126,6 +125,12 @@ Desde tu repositorio en GitHub, envía un Pull Request con una descripción deta
 **• Corrección de errores**: Si encuentras algún problema en el sitio, por pequeño que sea, reportarlo o corregirlo será de gran ayuda.
 
 **• Documentación**: Si crees que alguna sección del README u otra parte de la documentación podría mejorarse, siéntete libre de hacerlo.
+
+## Reportar problemas
+
+Si encuentras algún error, por favor abre una **issue** en GitHub para discutirlo:
+
+[Abre un Issue en GitHub](https://github.com/LucianoTreachi/optimizador-web/issues)
 
 ## Desarrollado por
 
