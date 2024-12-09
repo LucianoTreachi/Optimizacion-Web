@@ -148,10 +148,7 @@ p {
   background-color: #eae8e8;
   padding: 2.5rem 1.25rem;
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   gap: 0.625rem;
   transition: filter 0.3s;
 }
@@ -182,12 +179,15 @@ p {
 }
 
 .area-heading {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
   font-size: 1.5rem;
   color: #0a0d18;
   text-align: center;
 }
 
 .area-description {
+  display: block;
   font-size: 1.125rem;
   color: #0a0d18;
   text-align: center;
