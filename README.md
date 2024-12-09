@@ -20,7 +20,7 @@ Es ideal tanto para desarrolladores novatos como para expertos que buscan mejora
 
 ## Vista previa
 
-[![Vista previa del sitio Optimizador Web](https://i.postimg.cc/05LHPBBJ/website.png)](https://postimg.cc/K4D55JFZ)
+![Vista previa del sitio Optimizador Web](assets/readme/preview.png)
 
 ## Cómo comenzar a utilizar este recurso
 
@@ -29,15 +29,15 @@ Es ideal tanto para desarrolladores novatos como para expertos que buscan mejora
 2. Explora las áreas de verificación interactivas y marca las casillas para saber si tu sitio
    o aplicación está siguiendo las mejores prácticas. ¡A medida que completas las listas de verificación, una barra de progreso se actualiza para que alcances el 100%!
 
-[![Áreas de verificación](https://i.postimg.cc/VLB808v9/areas.jpg)](https://postimg.cc/6y3SFFdT)
+![Áreas de verificación](assets/readme/areas.png)
 
 3. Usa herramientas externas para analizar el rendimiento de tu sitio o aplicación en tiempo real. Solo necesitas ingresar la URL.
 
-[![Herramientas online](https://i.postimg.cc/F1X92h39/sites.jpg)](https://postimg.cc/0KZRSRV3)
+![Herramientas online](assets/readme/sites.png)
 
 4. Mejora tu flujo de trabajo con extensiones recomendadas que detectan problemas al instante.
 
-[![Extensiones recomendadas](https://i.postimg.cc/QMSG4k1F/extensions.jpg)](https://postimg.cc/066BrStv)
+![Extensiones recomendadas](assets/readme/extensions.png)
 
 ## Áreas de verificación disponibles
 
@@ -82,11 +82,11 @@ Si deseas contribuir al proyecto y ayudar a mejorar este recurso, sigue estos pa
 
 Haz clic en el botón de Fork en GitHub para crear tu copia del proyecto.
 
-[![Fork](https://i.postimg.cc/9FR1kYXF/Fork.png)](https://postimg.cc/VdwjrMb3)
+![Botón Fork](assets/readme/fork.png)
 
 ### 2. Clona el repositorio
 
-Descarga el repositorio en tu computadora local con el siguiente comando:
+Descarga el repositorio en tu computadora local.
 
 ```bash
 git clone https://github.com/LucianoTreachi/optimizador-web.git
@@ -94,7 +94,7 @@ git clone https://github.com/LucianoTreachi/optimizador-web.git
 
 ### 3. Crea una rama para tus cambios
 
-Utiliza un nombre descriptivo para tu rama, indicando la funcionalidad o mejora que implementarás:
+Utiliza un nombre descriptivo para tu rama, indicando la funcionalidad o mejora que implementarás.
 
 ```bash
 git checkout -b nombre-de-la-rama
@@ -102,7 +102,7 @@ git checkout -b nombre-de-la-rama
 
 ### 4. Realiza los cambios y sube tu rama
 
-Una vez que hayas finalizado los cambios y corroborado que todo funciona correctamente, sube tu rama al repositorio remoto:
+Una vez que hayas finalizado los cambios y corroborado que todo funciona correctamente, sube tu rama al repositorio remoto.
 
 ```bash
 git add .
@@ -114,7 +114,7 @@ git push origin nombre-de-la-rama
 
 Desde tu repositorio en GitHub, envía un Pull Request con una descripción detallada de tus cambios. Esto permitirá que tus contribuciones sean revisadas e integradas.
 
-[![Pull request](https://i.postimg.cc/s2VY3YzW/pr.png)](https://postimg.cc/fVrtK0JW)
+![Botón Pull request](assets/readme/pr.png)
 
 ¡Tu contribución será de gran ayuda!
 
