@@ -110,9 +110,12 @@ git commit -m "Descripción breve de los cambios realizados"
 git push origin nombre-de-la-rama
 ```
 
+> [!IMPORTANT]
+> Los mensajes de los commits deben seguir el estilo de redacción existente: en español, comenzando con un verbo en infinitivo, por ejemplo: "Añadir", "Implementar", "Actualizar", "Reemplazar", "Corregir", etc.
+
 ### 5. Crea un Pull Request
 
-Desde tu repositorio en GitHub, envía un Pull Request con una descripción detallada de tus cambios. Esto permitirá que tus contribuciones sean revisadas e integradas.
+Desde tu repositorio en GitHub, envía un Pull Request con una descripción detallada de tus cambios para que puedan ser revisados e integrados.
 
 ![Botón Pull request](assets/readme/pr.png)
 
