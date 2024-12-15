@@ -111,7 +111,7 @@ git push origin nombre-de-la-rama
 ```
 
 > [!IMPORTANT]
-> Los mensajes de los commits deben seguir el estilo de redacción existente: en español, comenzando con un verbo en infinitivo, por ejemplo: "Añadir", "Implementar", "Actualizar", "Reemplazar", "Corregir", etc.
+> Los mensajes de los commits deben seguir el estilo de redacción actual: en español, comenzando con un verbo en infinitivo, por ejemplo: "Añadir", "Implementar", "Actualizar", "Reemplazar", "Corregir", etc.
 
 ### 5. Crea un Pull Request
 
@@ -133,7 +133,7 @@ Desde tu repositorio en GitHub, envía un Pull Request con una descripción deta
 
 Si encuentras algún error, por favor abre una **issue** en GitHub para discutirlo:
 
-[Abre un Issue en GitHub](https://github.com/LucianoTreachi/optimizador-web/issues)
+Abre un Issue aquí → [Issues](https://github.com/LucianoTreachi/optimizador-web/issues)
 
 ## Desarrollado por
 
