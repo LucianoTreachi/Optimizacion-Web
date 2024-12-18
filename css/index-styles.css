@@ -303,6 +303,8 @@ SECTION: FAQS
   font-size: 1.125rem;
   text-align: center;
   opacity: 0.85;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .email-link {
