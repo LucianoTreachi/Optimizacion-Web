@@ -1,8 +1,8 @@
 /* GLOBAL */
 
 @font-face {
-  font-family: 'Aeonik Pro';
-  src: url('/assets/fonts/Aeonik_Pro.woff2') format('woff2');
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -12,7 +12,7 @@
   --white: #f0f0f0;
   --accent-color: #f2a71d;
 
-  --primary-font: 'Aeonik Pro', sans-serif;
+  --primary-font: 'Inter', sans-serif;
 }
 
 * {

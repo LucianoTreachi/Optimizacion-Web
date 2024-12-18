@@ -1,8 +1,8 @@
 /* GLOBAL */
 
 @font-face {
-  font-family: 'Aeonik Pro';
-  src: url('/assets/fonts/Aeonik_Pro.woff2') format('woff2');
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -16,8 +16,8 @@
 
   --border-radius: 1rem;
 
-  --primary-font: 'Aeonik Pro', sans-serif;
-  --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: system-ui, sans-serif;
 }
 
 * {
@@ -378,6 +378,7 @@ SECTION: FAQS
   .hero-subtitle {
     margin-top: 1.25rem;
     font-size: 1.125rem;
+    max-width: 100%;
   }
 
   .areas {
@@ -404,6 +405,10 @@ SECTION: FAQS
 
   .site-link:hover {
     border: 2px solid var(--body);
+  }
+
+  .call-to-action p {
+    width: 90%;
   }
 
   .footer {

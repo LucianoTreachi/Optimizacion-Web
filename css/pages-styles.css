@@ -1,8 +1,8 @@
 /* GLOBAL */
 
 @font-face {
-  font-family: 'Aeonik Pro';
-  src: url('/assets/fonts/Aeonik_Pro.woff2') format('woff2');
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -17,8 +17,8 @@
 
   --border-radius: 1rem;
 
-  --primary-font: 'Aeonik Pro', sans-serif;
-  --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: system-ui, sans-serif;
 }
 
 * {
@@ -146,7 +146,7 @@ p {
   color: var(--black);
   white-space: nowrap;
   position: absolute;
-  top: 0.5rem;
+  top: 0.35rem;
   right: 0.5rem;
 }
 
