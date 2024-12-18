@@ -368,7 +368,7 @@ SECTION: FAQS
   }
 
   .hero-section {
-    padding: 7.5rem 1.25rem;
+    padding: 4.5rem 1.25rem;
   }
 
   .hero-title {
@@ -423,5 +423,12 @@ SECTION: FAQS
   .website-icon {
     width: 1.875rem;
     height: 1.875rem;
+  }
+}
+
+/* 320px */
+@media (max-width: 20rem) {
+  .hero-title {
+    font-size: 3rem;
   }
 }
