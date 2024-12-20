@@ -222,6 +222,10 @@ li span {
   transform: translate(-50%, -50%);
 }
 
+.url {
+  word-break: break-all;
+}
+
 .clear-checkboxes-btn {
   border: none;
   display: inline-block;
